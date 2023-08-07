@@ -13,7 +13,7 @@ My friend was responsible for the art, I was responsible for the whole backend.
 I began by trying to understand how NFTs work behind the scenes. As it was the most important aspect of the project, it took a long
 time and a few failed attempts to understand it.
 <br><br>
-After this was done - I started working on a system to generate the art. **It was very important to make sure that there are
+After this, I started working on a system to generate the art. **It was very important to make sure that there are
 no duplicates** of NFTs!
 <br><br>
 Finally, I wrote a basic website in the time we had left.
@@ -27,7 +27,7 @@ Finally, I wrote a basic website in the time we had left.
 * The website
 
 ## Art Generator
-*Files: girrafegenerator.py, classes.py, raritygenerator.py, settings.py, nftsrarities.json, autosave.db*
+*Files: girrafegenerator.py, classes.py, raritygenerator.py, settings.py*
 <br><br>
 The art of the project was of giraffes, therefore the word `giraffe` appears quite often in the code.
 <br>
@@ -44,7 +44,7 @@ In order to maintain uniqueness, for each generated NFT I used MD5 hash to hash 
 ## Smart Contract
 *File: optimizedContract.sol*
 <br><br>
-A smart contract is code that runs on the blockchain. Gas price is the price you pay in order to get your code up on the blockchain.
+A smart contract is a code that runs on the blockchain. Gas is the price you pay to get your code up on the blockchain.
 <br>
 <br>
 You can see that the filename is **`optimizedContract`** and that is because previously we had a different contract that we wanted to deploy, however, the gas price was very high!
@@ -52,5 +52,5 @@ You can see that the filename is **`optimizedContract`** and that is because pre
 <br>
 In order to change that, I looked online for ways to reduce the gas price and found out that there are multiple gas optimization techniques and they are important. Here is a [link](https://www.alchemy.com/overviews/solidity-gas-optimization) to a great guide.
 <br><br>
-After minting an NFT, you can see the art (image) of the NFT you minted. In order to preserve the art for the future, I imported all the generated (10,000) NFTs to [IPFS](https://ipfs.tech) and saved their CID's in a DB.
+After minting an NFT, you can see the art (image) of the NFT you minted. In order to preserve the art for the future, I imported all the generated (10,000) NFTs to [IPFS](https://ipfs.tech) and saved their CIDs in a DB.
 <br><br>
