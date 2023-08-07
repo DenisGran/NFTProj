@@ -15,14 +15,14 @@ time and a few failed attempts to understand it.
 <br><br>
 After this was done - I started working on a system to generate the art. **It was very important to make sure that there are
 no duplicates** of NFTs!
-<br>
-And finally, I wrote a basic website in the time we had left.
+<br><br>
+Finally, I wrote a basic website in the time we had left.
 
-## What is included in this repo?
+## Included in this repo
 * Art Generator
 * Solidity Contract
 
-## What is not included
+## Not included in this repo
 * The art
 * The website
 
@@ -44,7 +44,7 @@ In order to maintain uniqueness, for each generated NFT I used MD5 hash to hash 
 ## Smart Contract
 *File: optimizedContract.sol*
 <br><br>
-In a nutshell: A smart contract is code that runs on the blockchain. Gas price is the price you pay in order to get your code up on the blockchain.
+A smart contract is code that runs on the blockchain. Gas price is the price you pay in order to get your code up on the blockchain.
 <br>
 <br>
 You can see that the filename is **`optimizedContract`** and that is because previously we had a different contract that we wanted to deploy, however, the gas price was very high!
